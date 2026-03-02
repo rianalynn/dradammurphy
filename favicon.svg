@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#150d24"/>
+      <stop offset="100%" style="stop-color:#2a1a4e"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle background -->
+  <circle cx="50" cy="50" r="50" fill="url(#bg)"/>
+  <!-- Gold ring -->
+  <circle cx="50" cy="50" r="47" fill="none" stroke="#c9a84c" stroke-width="3"/>
+  <!-- AM initials -->
+  <text x="50" y="58" 
+    font-family="Georgia, serif" 
+    font-size="38" 
+    font-weight="400"
+    fill="#e8ca7a" 
+    text-anchor="middle"
+    letter-spacing="-1">AM</text>
+  <!-- MD subtitle -->
+  <text x="50" y="74"
+    font-family="Georgia, serif"
+    font-size="14"
+    fill="#a89bc2"
+    text-anchor="middle"
+    letter-spacing="3">MD</text>
+</svg>
